@@ -12,9 +12,13 @@ background-image: url("images/patt.png");
 .container{
     width: 1200px;
     margin: 0 auto;
-    padding-left: -15px;
-    padding-right: -15px;
+    padding-left: 15px;
+    padding-right: 15px;
 
+}
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
 }
 .row::after, .menu::after{
     content: "";
@@ -23,6 +27,8 @@ background-image: url("images/patt.png");
 }
 .col-md-3{
     width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .col-md-6{
     width: 50%;
@@ -93,7 +99,7 @@ background-image: url("images/patt.png");
     width: 40px;
     height: 40px;
     background-color: white;
-    margin:5px 30px;
+    margin:2px 2px;
     text-align: center;
     line-height: 40px;
     position: relative;
@@ -166,3 +172,4 @@ background-image: url("images/patt.png");
 .row a{
     display: block;
 }
+
