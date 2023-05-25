@@ -83,9 +83,9 @@ background-image: url("images/patt.png");
     margin-bottom: 5px;
     margin-left: 15px;
     border: 1px solid #2c71b8;
-    position: relative;
     height: 40px;
     width: 200px;
+    position: relative;
 }
 .form-search input{
     background: transparent;
