@@ -316,6 +316,25 @@ span{
     background-position: 180px 15px;
 
 }
+label:before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    line-height: 10px;
+
+}
+input:checked + label:before{
+    background-color: white;
+}
+#red {
+    display: none;
+}
+.deviceType {
+    padding: 10px;
+}
 
 
 
