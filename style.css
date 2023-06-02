@@ -298,7 +298,8 @@ span{
 .product-price > h1 {
     padding-top: 30px;
 }
-.product-body button{
+/* .product-body button{ */
+button{
     width: 210px;
     height: 50px;
     margin-top: 15px;
@@ -316,6 +317,14 @@ span{
     background-position: 180px 15px;
 
 }
+label {
+    padding-left: 20px;
+    position: relative;
+    display: block;
+    padding-top: 25px;
+    color: white;
+   
+}
 label:before {
     content: "";
     display: block;
@@ -323,20 +332,33 @@ label:before {
     height: 10px;
     border: 1px solid white;
     cursor: pointer;
-    line-height: 10px;
-
+    position: absolute;
+    left: 0px;
+    bottom: 2px;
 }
 input:checked + label:before{
     background-color: white;
 }
-#red {
+/* #red {
+    display: none;
+} */
+.deviceType {
+    padding: 30px;
+    border-right: 1px solid white;
+    background-color:  rgb(255, 255, 255, 0.4);
+}
+h1 {
+    color:white;
+    font-size: 21px;
+    font-weight: 700;
+}
+[id*="red-"] {
     display: none;
 }
-.deviceType {
-    padding: 10px;
+button:hover {
+    background-color: white;
+    color: #2c71b8;
 }
-
-
 
    
 
